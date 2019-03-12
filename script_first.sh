@@ -3,7 +3,7 @@ clear
 echo 'Mit szeretnél?'
 echo '1. Létrehozni egy fájlt.'
 echo '2. Megtudni, hol vagyok.'
-echo '3. Egy Pónit.'
+echo '3. Egy Gitárt.'
 read dontes
 if [ $dontes -eq 1 ]
 then
@@ -18,7 +18,7 @@ then
 	pwd
 elif [ $dontes -eq 3 ]
 then
-	google-chrome http://napiaszonline.hu/news_pic/ponilo.jpg
+	google-chrome https://images.esellerpro.com/4265/I/23/gibson-les-paul-standard-2018-cobalt-burst-left-581950.jpg
 else 
 	echo 'Nem volt ilyen döntési lehetőség.'
 fi
